@@ -9,7 +9,7 @@ CUDA_VISIBLE_DEVICES=0 python3 main.py \
     --overwrite_cache \
     --prompt_column content \
     --response_column summary \
-    --model_name_or_path THUDM/chatglm-6b \
+    --model_name_or_path /content/ChatGLM-6B/chatglm-6b-int4 \
     --ptuning_checkpoint ./output/$CHECKPOINT/checkpoint-$STEP \
     --output_dir ./output/$CHECKPOINT \
     --overwrite_output_dir \
